@@ -1579,6 +1579,10 @@ input, select, textarea {
 		padding: 30px; /* Add some padding to make it visually appealing. */
 	}
 
+	/* tr:nth-child(even) {
+		background-color: #dddddd;
+	  } */
+
 	table {
 		/* border-collapse: collapse; */
 		width: 100%;
@@ -1611,6 +1615,43 @@ input, select, textarea {
 				background: #4f4f4f;
 				color: #fff;
 			}
+	
+	/* Style for the second table */
+	#table1 {
+		border-collapse: collapse;
+		width: 85%;
+		/* margin: 0 auto; */
+	}
+	
+	#table1 th, #table1 td {
+		/* border: 1px solid #dddddd; */
+		padding: 8px;
+		text-align: left;
+		
+	}
+
+	#table1 th {
+		/* background-color: #dddddd  ;  */
+		background-color: lightgray;
+		padding: 10px; 
+		font-weight: bold;
+		font-size: larger;
+		color: #FFFFFF;
+	}
+	
+	#table1 tr:nth-child(odd) {
+		background-color: #f2f2f2;
+		/* background-color: lightgray; */
+	}
+
+	/* #table1 th:first-child, td:first-child {
+		width: 10%;
+	}
+	
+	#table1 th:nth-child(2), td:nth-child(2) {
+		width: 90%;
+	}  */
+
 
 /* Section/Article */
 
@@ -1691,7 +1732,8 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		/* background-color: #3182bd; */
+		background-color: #333333;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1702,7 +1744,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #deebf7;
 			color: #fff !important;
 		}
 
@@ -1711,7 +1753,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #deebf7;
 			top: 1px;
 		}
 
